@@ -1,0 +1,1 @@
+/usr/bin/google-chrome --user-data-dir=/home/ryan/wk/tnt/tmpusr --load-extension=/home/ryan/wk/tnt

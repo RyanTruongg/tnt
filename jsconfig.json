@@ -1,0 +1,13 @@
+{
+    "typeAcquisition": {
+        "include": [
+            "chrome"
+        ]
+    },
+    "compilerOptions": {
+        "lib": [
+            "es2018",
+            "dom"
+        ]
+    }
+}

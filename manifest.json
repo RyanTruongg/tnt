@@ -1,0 +1,30 @@
+{
+  "name": "TNT",
+  "description": "...",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "permissions": ["alarms", "bookmarks", "notifications", "tabs", "contextMenus", "scripting"],
+  "host_permissions": ["http://*/", "https://*/"],
+  "action": {
+    "default_popup": "/popup/index.html",
+    "default_icon": {
+      "16": "/assets/icon16.png",
+      "32": "/assets/icon32.png",
+      "48": "/assets/icon48.png",
+      "128": "/assets/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "/assets/icon16.png",
+    "32": "/assets/icon32.png",
+    "48": "/assets/icon48.png",
+    "128": "/assets/icon128.png"
+  },
+  "options_page": "/options/index.html",
+  "content_scripts": [],
+  "web_accessible_resources": []
+}
